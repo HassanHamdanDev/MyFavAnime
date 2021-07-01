@@ -1,57 +1,59 @@
-var name = prompt("what is you name?")
-console.log(name)
 
-alert("wlecome to my fav Anime website " + name + " :)" )
 
-var yourFavAnime = prompt("what is your fav Anime ?")
-
-console.log(yourFavAnime)
-
-var myFav = ["Monster","DeathNote","Code Geass"]
+/*var myFav = ["Monster","DeathNote","Code Geass"]
 
 if ( myFav.includes(yourFavAnime)){
 
   alert("yes it is my fav too ")
   document.write("<h2>" + yourFavAnime + "</h2>")
   }
-<<<<<<< HEAD
+
 else if (yourFavAnime != null){
    document.write("<h2>" + yourFavAnime + "</h2>")
     }
 else {
      alert("you didn't input anything")
     }
+*/
 
 
-///////////////////////////////////////////////////////////////
+var name = prompt("what is you name?")
 
-var monster = <div >
-        <h5>Monster</h5>
-        <img src="MA.jpg" alt="Image of Monster Anime" height="300px" width="300px">
-      </div>
+alert("wlecome to my fav Anime website " + name + " :)")
 
-var codeGeass = <div>
-        <h5>Code Geass: Lelouch of the Rebellion</h5>
-        <img src="CG.jpg" alt="Image of Code Geass Anime" height="300px" width="300px">
-      </div>
+var monster = "<div >" +
+  "<h5>" + "Monster" + "</h5>" + "<img src='MA.jpg' alt='Image of Monster Anime' height='300px' width='300px'>" + "</div>"
 
-var deathNote = <div>
-        <h5>Death Note</h5>
-        <img src="DT.jpg" alt="Image of Death Note Anime" height="300px" width="300px">
-      </div>
+var codeGeass = "<div >" +
+  "<h5>" + "Code Geass" + "</h5>" + "<img src='CG.jpg' alt='Image of Code Geass' height='300px' width='300px'>" + "</div>"
+
+var deathNote = "<div >" +
+  "<h5>" + "Death Note"+ "</h5>" + "<img src='DT.jpg' alt='Image of Death Note' height='300px' width='300px'>" + "</div>"
 
 
 var yourFav = prompt("what is your fav Anime ?\n(Monster),(Code Geass),(Death Note)")
 
-while (yourFav != "Monster" && yourFav != "Code Geass" && yourFav != "Death Note" ){
-  
+
+
+while (yourFav != "Monster" && yourFav != "Code Geass" && yourFav != "Death Note") {
+  yourFav = prompt("what is your fav Anime ?\n(Monster),(Code Geass),(Death Note)")
 }
 
-=======
-  else if (yourFavAnime != null){
-   document.write("<h2>" + yourFavAnime + "</h2>")
+if (yourFav == "Monster") {
+  var times = prompt("how many time you wish  to it on my page")
+  for (var i = 0; i < times; i++) {
+    document.write(monster)
+  }
+} else if (yourFav == "Code Geass") {
+  var times = prompt("how many time you wish  to it on my page ")
+  for (var i = 0; i < times; i++) {
+    document.write(codeGeass)
+  }
+} else if (yourFav == "Death Note") {
+    var times = prompt("how many time you wish  to it on my page ")
+    for (var i = 0; i < times; i++) {
+      document.write(deathNote)
     }
-   else {
-     alert("you didn't input anything")
-    }
->>>>>>> 14213ff696675dbc4f2ecb8863799a42358b3b1f
+}
+
+
