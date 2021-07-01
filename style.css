@@ -1,5 +1,5 @@
 body {
-  font: normal small-caps normal  cursive;
+  font: normal small-caps normal 14px  cursive;
   margin: 5%;
   padding: 5px;
   border-style: inset;
@@ -11,5 +11,32 @@ main{
   margin: 5px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(245, 227, 227);
+ 
+}
 
+li {
+  float: left;
+  
+}
 
+li a {
+  display: block;
+  color:  rgb(250, 14, 14);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+h3 {
+  margin-left: 3px;
+}
