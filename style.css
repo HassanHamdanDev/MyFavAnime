@@ -1,0 +1,15 @@
+body {
+  font: normal small-caps normal  cursive;
+  margin: 5%;
+  padding: 5px;
+  border-style: inset;
+}
+
+main{
+  background-color: #7FFFD4;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+
