@@ -40,18 +40,21 @@ while (yourFav != "Monster" && yourFav != "Code Geass" && yourFav != "Death Note
 
 if (yourFav == "Monster") {
   var times = prompt("how many time you wish  to it on my page")
+  document.writeln("you choose " + times + " Image")
   for (var i = 0; i < times; i++) {
     document.write(monster)
   }
 } else if (yourFav == "Code Geass") {
   var times = prompt("how many time you wish  to it on my page ")
+  document.writeln("you choose " + times + " Image")
   for (var i = 0; i < times; i++) {
     document.write(codeGeass)
   }
 } else if (yourFav == "Death Note") {
     var times = prompt("how many time you wish  to it on my page ")
+    document.writeln("you choose " + times + " Image")
     for (var i = 0; i < times; i++) {
-      document.write(deathNote)
+      document.write(deathNote + times)
     }
 }
 }
