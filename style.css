@@ -1,12 +1,12 @@
 body {
   font: normal small-caps normal 14px  cursive;
-  margin: 5%;
+  margin: 3%;
   padding: 5px;
   border-style: inset;
 }
 
 main{
-  background-color: #7FFFD4;
+  background-color: rgb(171, 200, 243);
   padding: 5px;
   margin: 5px;
 }
@@ -16,7 +16,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(63, 85, 209);
+  background-color: rgb(98, 238, 231);
  
 }
 
@@ -50,4 +50,21 @@ button {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+  margin-left:33%; 
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px black groove;
+    margin: 0 auto;
+}
+
+.flex-item {
+    width: 30%;
+    border: 1px black groove;
+    background: rgb(108, 170, 231);
+    text-align: center;
 }
