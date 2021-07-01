@@ -1,6 +1,5 @@
 
-
-/*var myFav = ["Monster","DeathNote","Code Geass"]
+  /*var myFav = ["Monster","DeathNote","Code Geass"]
 
 if ( myFav.includes(yourFavAnime)){
 
@@ -15,7 +14,7 @@ else {
      alert("you didn't input anything")
     }
 */
-
+function myFunction(){
 
 var name = prompt("what is you name?")
 
@@ -55,5 +54,8 @@ if (yourFav == "Monster") {
       document.write(deathNote)
     }
 }
+}
+
+
 
 
