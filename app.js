@@ -29,7 +29,6 @@ var codeGeass = "<div >" +
 var deathNote = "<div >" +
   "<h5>" + "Death Note"+ "</h5>" + "<img src='DT.jpg' alt='Image of Death Note' height='300px' width='300px'>" + "</div>"
 
-
 var yourFav = prompt("what is your fav Anime ?\n(Monster),(Code Geass),(Death Note)")
 
 
@@ -46,13 +45,11 @@ if (yourFav == "Monster") {
   }
 } else if (yourFav == "Code Geass") {
   var times = prompt("how many time you wish  to it on my page ")
-  document.writeln("you choose " + times + " Image")
   for (var i = 0; i < times; i++) {
     document.write(codeGeass)
   }
 } else if (yourFav == "Death Note") {
     var times = prompt("how many time you wish  to it on my page ")
-    document.writeln("you choose " + times + " Image")
     for (var i = 0; i < times; i++) {
       document.write(deathNote + times)
     }
