@@ -14,6 +14,7 @@ if ( myFav.includes(yourFavAnime)){
   alert("yes it is my fav too ")
   document.write("<h2>" + yourFavAnime + "</h2>")
   }
+<<<<<<< HEAD
 else if (yourFavAnime != null){
    document.write("<h2>" + yourFavAnime + "</h2>")
     }
@@ -46,3 +47,11 @@ while (yourFav != "Monster" && yourFav != "Code Geass" && yourFav != "Death Note
   
 }
 
+=======
+  else if (yourFavAnime != null){
+   document.write("<h2>" + yourFavAnime + "</h2>")
+    }
+   else {
+     alert("you didn't input anything")
+    }
+>>>>>>> 14213ff696675dbc4f2ecb8863799a42358b3b1f
